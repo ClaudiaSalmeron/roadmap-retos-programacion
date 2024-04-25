@@ -1,0 +1,47 @@
+// https://www.typescriptlang.org
+
+/* Esta es la forma de hacer un
+comentario multilínea*/
+
+//Auna variable se le puede asignar cualquer tipo de dato
+let mensajeDeVariable = "Hola Typescript";
+
+/*Una constante se usa para 
+declarar un valor 
+que no puede ser reasignado más 
+adelante en el program*/
+const pi: number = 3.1416;
+
+//Tipo de datos en Typescripet.
+//Los datos de número se puedn utilizar para representar números enteros y flotantes
+let number: number = 28;
+
+//Número flotante
+let flatingNumber: number = 2.8;
+
+/*Dato tipo cadena(string) sirve para 
+representar una secuencia de carcteres.*/
+let stringMensaje: string = "Typescript ";
+
+//Tipo de dato Booleano (true/false)
+let booleanTrue: boolean = true;
+let booleanFalse: boolean = false;
+
+//Tipo de dato nulo(Null)
+let nullVariable: null = null;
+
+//Tipo de dato undefined
+let undefinedVariable: undefined;
+
+//Tipo de dato Objeto
+interface Anime{
+	name: string;
+	fecha: date;
+	numeroDeTemporadas: number;
+}
+consol.log("¡Hola,${stringMensaje}!);
+
+
+
+
+
